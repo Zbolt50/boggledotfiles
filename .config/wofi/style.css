@@ -1,0 +1,35 @@
+* {
+	border: none;
+	box-shadow: none;
+}
+window {
+	font-family: "JetBrains Mono";
+	background-color: rgba(128,0,0,0.7);
+}
+#entry{
+	border: none;
+	color: white;
+	padding: 0.25em;
+}
+#entry:selected {
+
+	background: linear-gradient(90deg, #800000, #ce2029);
+}
+#text:selected {
+	border: none;
+	color: #ffffff;
+}
+#text:unselected {
+	color: #ffffff;
+}
+#input{
+		background: linear-gradient(90deg, #ce2029, #800000);
+		background-color: #ce2029;
+		color: white;
+		padding: 0.25em;
+}
+image{
+	margin-left: .25em;
+	margin-right: .25em;
+}
+
