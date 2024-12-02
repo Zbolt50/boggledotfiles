@@ -3,7 +3,7 @@ opacity = 0.75
 
 [general]
 import = [
-    "~/.config/alacritty/themes/themes/inferno.toml"
+    "~/.config/alacritty/themes/siva.toml"
 ]
 
 [selection]
