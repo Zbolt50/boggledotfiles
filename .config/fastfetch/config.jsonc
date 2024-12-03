@@ -46,18 +46,18 @@
       "type": "localip",
       "keyColor": "red"
     },
-	{
-		"type": "cpu",
-		"keyColor": "red"
-	},
+    {
+	"type": "cpu",
+	"keyColor": "red"
+    },
     {
       "type": "gpu",
       "keyColor": "red"
     },
-	{
-		"type": "disk",
-		"keyColor": "red"
-	},
+    {
+	"type": "disk",
+	"keyColor": "red"
+    },
     {
       "type": "battery",
       "keyColor": "red"
