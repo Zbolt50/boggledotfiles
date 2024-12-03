@@ -67,6 +67,10 @@
       "keyColor": "red"
     },
     "separator",
+    {
+      "type": "colors"
+    },
+    "separator",
     "break"
   ]
 }
