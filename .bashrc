@@ -29,6 +29,6 @@ prompt() {
 }
 PROMPT_COMMAND=prompt
 
-#./.config/hypr/test_script.sh ~/.config/hypr/script_lines.txt
+./.config/hypr/test_script.sh ~/.config/hypr/script_lines.txt
 
 #export PATH="$PATH:/home/boggle/.local/bini"
