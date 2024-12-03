@@ -12,13 +12,12 @@
 	"tray"
     ],
     "modules-center": [
-	//"mpd",
-	"custom/media"
+	"mpd",
     ],
     "modules-right": [
         "pulseaudio",
         "network",
-		"bluetooth",
+	"bluetooth",
         "clock",
         "custom/power"
     ],
@@ -39,9 +38,34 @@
 	    "temperature"
     ],
     "modules-right": [
-		"mpd",
+	    "mpd",
 	    "custom/media"
-    ]
+    ],
+},  {
+    // For Laptop Waybar Config
+    "layer": "top", // Waybar at top layer
+    "output": ["eDP-1"],
+    "height": 36, 
+    "spacing": 4, // Gaps between modules (4px)
+    "include": [
+	"~/.config/waybar/default-modules.json",
+    ],
+    "modules-left": [
+        "hyprland/workspaces",
+	"tray"
+    ],
+    "modules-center": [
+	"mpd",
+    ],
+    "modules-right": [
+        "pulseaudio",
+        "network",
+	"bluetooth",
+	"power-profiles-daemon",
+	"battery",
+        "clock",
+        "custom/power"
+    ],
 }],
 
 

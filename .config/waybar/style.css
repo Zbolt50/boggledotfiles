@@ -3,7 +3,7 @@
     font-size: 14px;
 }
 #waybar {
-    font-family: "More Perfect DOS VGA", monospace;
+    font-family: "MxPlus IBM VGA 9x16";
     font-size: 12px;
     opacity: 0.9;
 }
@@ -157,7 +157,7 @@ margin: 0px 0px 0px 10px;
     	border-top: 2px solid #800000;
 }
 tooltip {
-  font-family: "More Perfect DOS VGA";
+  font-family: "MxPlus IBM VGA 9x16";
   color: white;
   background-color: #000000;
   text-shadow: none;
