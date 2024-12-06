@@ -25,7 +25,7 @@ git_stuff() {
   fi
 }
 prompt() {
-  PS1="[\u@\h:\W]$(git_stuff)$ "
+  PS1="[\u@\h \W]$(git_stuff)$"
 }
 PROMPT_COMMAND=prompt
 
