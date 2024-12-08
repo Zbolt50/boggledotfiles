@@ -14,10 +14,15 @@ Plug('lewis6991/gitsigns.nvim')
 vim.call('plug#end')
 
 
-
-
-
-
+require('neo-tree').setup {
+    filesystem = {
+        filtered_items = {
+            visible = true,
+            hide_dotfiles = false,
+            hide_gitignored = true,
+        },
+    },
+}
 -- gitsigns config
 require('gitsigns').setup {
   signs = {
