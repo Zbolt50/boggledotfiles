@@ -32,7 +32,7 @@
         "on-scroll-down": "playerctl previous"
     },
     "network":{
-        "format-wifi": "",
+        "format-wifi": " ",
         "format-ethernet": "",
         "format-disconnected": "Disconnected ⚠",
         "tooltip-format-wifi": "{essid}: {signalStrength}%",
@@ -51,11 +51,11 @@
         "on-click": "alacritty -e bluetui"
     },
     "clock": {
-	"format": "{:%I:%M}",
+	"format": "{:%I:%M %p}",
         "tooltip": "true",
         "tooltip-format": "{:%m-%d-%Y}",
         "timezone": "America/New_York",
-        "format-alt": "{:%a.%b %d | %I:%M}"
+        "format-alt": "{:%a.%b %d | %I:%M %p}"
     },
     "custom/power": {
          "format" : "⏻",
