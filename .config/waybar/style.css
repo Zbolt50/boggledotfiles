@@ -98,7 +98,7 @@ button {
     border-top: 2px solid #ce2029;
 }
 #power-profiles-daemon{
-    padding: 0 5px 0 5px;
+    padding: 0 10px 0 5px;
     border-top: 2px solid #800000;
 }
 #power-profiles-daemon:hover{
@@ -112,21 +112,20 @@ button {
     border-top: 2px solid #ce2029;
 }
 #custom-media {
-margin: 0px 0px 0px 10px;
+    margin: 0px 0px 0px 10px;
     padding: 0 5px 0 5px;
     border-top: 2px solid #800000; 
 }
-
 #clock {
     border-top: 2px solid #800000;
-    margin:     0px 16px 0px 10px;
+    margin:  0px 16px 0px 10px;
 } 
 #clock:hover {
     margin: 0px 16px 0px 10px;
     border-top: 2px solid #ce2029;
 }
 #battery {
-    margin: 0px 6px 0px 16px;
+    margin: 0px 10px 0px 10px;
 }
 #battery.warning {
     color: rgba(255, 210, 4, 1);
