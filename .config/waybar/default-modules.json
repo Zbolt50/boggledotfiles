@@ -6,7 +6,7 @@
         "format-icons": {
           "headphones": "",
           "headset": "",
-          "default": ["", ""]
+          "default": ["", " "]
         },
         "on-click": "pavucontrol"
     },
