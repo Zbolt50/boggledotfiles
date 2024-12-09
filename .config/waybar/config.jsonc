@@ -52,17 +52,18 @@
     ],
     "modules-left": [
         "hyprland/workspaces",
-	"tray"
+        "mpd",
+	    "tray"
     ],
     "modules-center": [
-	"mpd",
+        "custom/media"
     ],
     "modules-right": [
         "pulseaudio",
         "network",
-	"bluetooth",
-	"power-profiles-daemon",
-	"battery",
+	    "bluetooth",
+	    "power-profiles-daemon",
+	    "battery",
         "clock",
         "custom/power"
     ],
