@@ -125,7 +125,7 @@ button {
     border-top: 2px solid #ce2029;
 }
 #battery {
-    margin: 0px 10px 0px 10px;
+    margin: 0px 0px 0px 10px;
 }
 #battery.warning {
     color: rgba(255, 210, 4, 1);
