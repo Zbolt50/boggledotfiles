@@ -52,13 +52,13 @@
     ],
     "modules-left": [
         "hyprland/workspaces",
-        "mpd",
-	    "tray"
+        "mpd"
     ],
     "modules-center": [
         "custom/media"
     ],
     "modules-right": [
+        "tray",
         "pulseaudio",
         "network",
 	    "bluetooth",
