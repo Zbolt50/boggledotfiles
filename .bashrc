@@ -7,6 +7,8 @@
 
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
+alias vtop='vtop -t wizard'
+alias neofetch='fastfetch'
 RED='\033[0;31m'
 #NC= '\033[0m'
   # This function returns '' in all below cases:
@@ -25,7 +27,7 @@ git_stuff() {
   fi
 }
 prompt() {
-  PS1="[\u@\h \W]$(git_stuff)$"
+  PS1="[\u@\h \W]$(git_stuff)$ "
 }
 PROMPT_COMMAND=prompt
 
