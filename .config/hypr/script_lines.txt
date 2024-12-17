@@ -26,3 +26,4 @@ rm -rf * NAH just kidding :]
 Human After All..
 You must construct additonal pylons.
 Bomb has been planted.
+Warning: The Bassmaster General has determined that coffee is good for your health.

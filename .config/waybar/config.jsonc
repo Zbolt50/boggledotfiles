@@ -9,15 +9,15 @@
     ],
     "modules-left": [
         "hyprland/workspaces",
-	"tray"
+    	"tray"
     ],
     "modules-center": [
-	"mpd",
+	    "mpd",
     ],
     "modules-right": [
         "pulseaudio",
         "network",
-	"bluetooth",
+	    "bluetooth",
         "clock",
         "custom/power"
     ],
@@ -51,11 +51,11 @@
 	"~/.config/waybar/default-modules.json",
     ],
     "modules-left": [
-        "hyprland/workspaces",
-        "mpd"
+        "hyprland/workspaces"
     ],
     "modules-center": [
-        "custom/media"
+        "custom/media",
+        "custom/album-art"
     ],
     "modules-right": [
         "tray",

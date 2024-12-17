@@ -1,34 +1,4 @@
-local vim = vim
-local Plug = vim.fn['plug#']
-
-vim.call('plug#begin')
--- Add Plugins here
--- vim practice
-Plug('ThePrimeagen/vim-be-good')
--- Git related Plugins
-Plug('https://github.com/tpope/vim-fugitive')
-Plug('lewis6991/gitsigns.nvim')
--- NeoTree
-Plug('nvim-lua/plenary.nvim')
-Plug('nvim-telescope/telescope.nvim')
-Plug('nvim-neo-tree/neo-tree.nvim')
-Plug('MunifTanjim/nui.nvim')
-Plug('nvim-tree/nvim-web-devicons')
-Plug('nvim-treesitter/nvim-treesitter')
--- Themeing
-Plug('paulfrische/reddish.nvim')
-vim.call('plug#end')
-
-require('neo-tree').setup {
-    filesystem = {
-        filtered_items = {
-            visible = true,
-            hide_dotfiles = false,
-            hide_gitignored = true,
-        },
-    },
-}
--- gitsigns config
+-- Gitsigns 
 require('gitsigns').setup {
   signs = {
     add          = { text = '┃' },

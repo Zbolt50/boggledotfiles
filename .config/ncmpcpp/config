@@ -1,4 +1,4 @@
-mpd_music_dir = "~/Music"  
+mpd_music_dir = "~/music"  
 mpd_host = "localhost"
 mpd_port = "6600"  
 mpd_connection_timeout = "5"  
@@ -9,7 +9,7 @@ visualizer_output_name = "my_fifo"
 visualizer_in_stereo = "yes"
 visualizer_type = "ellipse"
 visualizer_look = "+|"
-visualizer_color = "red"
+visualizer_color = "RED"
 
 lyrics_directory  = ~/.ncmpcpp/lyrics
 ncmpcpp_directory  = ~/.ncmpcpp
