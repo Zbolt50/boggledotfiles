@@ -3,7 +3,7 @@
     font-size: 14px;
 }
 #waybar {
-    font-family: "MxPlus IBM VGA 9x16";
+    font-family: "MorePerfectDOSVGA";
     font-size: 12px;
     opacity: 0.9;
 }
@@ -29,8 +29,6 @@ window#waybar {
 */
 window#waybar.solo {
     background: #750303;
-    /* font-family: "Ubuntu Medium";
-    font-size: 15px; */
 }
 
 window#waybar.empty {
@@ -160,7 +158,7 @@ button {
     	border-top: 2px solid #800000;
 }
 tooltip {
-  font-family: "MxPlus IBM VGA 9x16";
+  font-family: "MorePerfectDOSVGA";
   color: white;
   background-color: #000000;
   text-shadow: none;
