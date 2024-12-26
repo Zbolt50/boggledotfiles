@@ -18,8 +18,9 @@ return {
                     },
                     never_show = {},
                 },
-            },        
+            },
         })
     vim.keymap.set('n', '<leader>n', function() vim.cmd [[Neotree toggle]] end)
     end
 }
+
