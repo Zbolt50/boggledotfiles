@@ -22,6 +22,8 @@ vim.opt.rtp:prepend(lazypath)
 
 vim.opt.clipboard = 'unnamedplus'
 vim.opt.mouse = 'a'
+vim.g.loaded_netrw = 1
+vim.g.loaded_netrwPlugin = 1
 
 vim.opt.tabstop = 4 -- number of visual spaces per TAB
 vim.opt.softtabstop = 4 -- number of spacesin tab when editing
@@ -61,11 +63,11 @@ require('lazy').setup {
   },
   -- Configure any other settings here. See the documentation for more details.
   -- colorscheme that will be used when installing plugins.
-  install = { colorscheme = { 'reddish' } },
+  install = { colorscheme = { 'siva' } },
   -- automatically check for plugin updates
   checker = { enabled = true },
 }
 -- Disable Mouse Popup
 vim.cmd 'autocmd VimEnter * silent! aunmenu PopUp.How-to\\ disable\\ mouse'
 vim.cmd 'aunmenu PopUp.-1-'
-vim.cmd 'colorscheme reddish'
+vim.cmd 'colorscheme siva'

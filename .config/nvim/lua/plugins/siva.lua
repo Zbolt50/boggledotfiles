@@ -1,3 +1,3 @@
 return {
-    "Zbolt50/siva.nvim"
+  'Zbolt50/siva.nvim',
 }

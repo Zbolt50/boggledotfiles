@@ -8,6 +8,7 @@ return {
   },
   config = function()
     require('neo-tree').setup {
+      auto_clean_after_session_restore = false, -- Automatically clean up broken neo-tree buffers saved in sessions
       source_selector = {
         winbar = true,
       },
@@ -28,7 +29,7 @@ return {
         },
       },
       window = {
-        color_set = 'reddish',
+        color_set = 'siva',
       },
     }
     vim.keymap.set('n', '<leader>n', function()
