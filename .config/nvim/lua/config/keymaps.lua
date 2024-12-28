@@ -8,6 +8,7 @@ keymap.set('n', '<leader>pv', vim.cmd.Ex)
 keymap.set('n', '<leader>w', ':write<CR>')
 keymap.set('n', '<leader>a', ':wqa<CR>')
 keymap.set('n', '<leader>q', ':q!<CR>')
+keymap.set('n', '<leader>qa', ':qa!<CR>')
 
 -- Copy and Paste
 keymap.set('n', '<leader>ya', 'ggyG', { desc = 'Yank all lines' })
