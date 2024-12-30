@@ -13,12 +13,14 @@ return {
         winbar = true,
       },
       filesystem = {
+        bind_to_cwd = true,
         filtered_items = {
           visible = true,
           hide_dotfiles = false,
           hide_gitignored = true,
           hide_by_name = {
             -- add extensions to explicitly hide
+            '.DS_Store',
           },
           never_show = {},
         },
