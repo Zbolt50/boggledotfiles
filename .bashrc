@@ -5,6 +5,7 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+# aliases and colors
 alias ls='ls --color=auto'
 alias la='ls -a --color=auto'
 alias ll='ls -l --color=auto'
@@ -12,8 +13,8 @@ alias grep='grep --color=auto'
 alias vtop='vtop -t wizard'
 alias neofetch='fastfetch'
 RED='\033[0;31m'
-#NC= '\033[0m'
-  # This function returns '' in all below cases:
+
+# This function returns '' in all below cases:
   #   - git not installed or command not found
   #   - not in a git repo
   #   - in a git repo but not on a branch (HEAD detached)

@@ -1,7 +1,7 @@
 // -*- mode: jsonc -*-
 [{
     "layer": "top", // Waybar at top layer
-    "output": ["DP-1"], //"HDMI-A-1"
+    "output": ["eDP-1"], //"HDMI-A-1"
     "height": 36, 
     "spacing": 4, // Gaps between modules (4px)
     "include": [
@@ -18,6 +18,8 @@
         "pulseaudio",
         "network",
 	    "bluetooth",
+        "power-profiles-daemon",
+        "battery",
         "clock",
         "custom/power"
     ],

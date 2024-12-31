@@ -1,0 +1,3 @@
+# ignore all gpg files
+*.gpg
+install_script.sh
